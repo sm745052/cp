@@ -1,0 +1,1 @@
+{"name":"Local: cf1771c","url":"/home/sm745052/cp/cf1771c.cpp","tests":[{"id":1670847917698,"input":"2\n3\n32 48 7\n3\n14 5 9","output":"YES\nNO"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/sm745052/cp/cf1771c.cpp","group":"local","local":true}
