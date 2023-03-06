@@ -1,0 +1,31 @@
+#include<bits/stdc++.h>
+using namespace std;
+ 
+void solve()
+{
+	int a, b, c;
+	cin>>a>>b>>c;
+	map<int, int> g;
+	g[a]++;g[b]++;g[c]++;
+	if(g[a+b]||g[b+c]||g[a+c]){
+		cout<<"YES"<<endl;
+	}
+	else{
+		cout<<"NO"<<endl;
+	}
+}
+ 
+ 
+int main()
+{
+#ifndef ONLINE_JUDGE
+ 
+    freopen("input.txt", "r", stdin);
+ 
+    freopen("output.txt", "w", stdout);
+   
+#endif
+	int t;cin>>t;while(t--)
+	solve();
+	return 0;
+}
