@@ -6,7 +6,7 @@ public:
     vector<T> arr;
     function<T(T, T)> op;
     function<T()> e;
-
+    segtree(){}
     segtree(vector<T> arr_, function<T(T, T)> operation, function<T()> identity){
         n = arr_.size();
         arr = arr_;
