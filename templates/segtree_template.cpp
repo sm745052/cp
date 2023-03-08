@@ -1,8 +1,3 @@
-#include<bits/stdc++.h>
-using namespace std;
-
-# define int long long
-
 template<class T>
 class segtree{
 public:
@@ -49,7 +44,7 @@ private:
             return t[id];
         }
         if(ql>r || qr<l){
-            return {0, -1e9};
+            return e();
         }
         int mid = (l+r)/2;
         return op(query_(2*id, l, mid, ql, qr), query_(2*id+1, mid+1, r, ql, qr));
