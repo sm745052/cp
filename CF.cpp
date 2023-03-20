@@ -7,7 +7,7 @@ using namespace std;
 #define PY yes()
 #define v_inp(a) for(auto &i:a)cin>>i
 #define v_print(a) for(int i=0;i<a.size();i++)cout<<a[i]<<" \n"[i==a.size()-1];
-#define s_print(a) for(auto i:a)cout<<i<<" ";cout<<endl;
+#define v_print(a) for(auto i:a)cout<<i<<" ";cout<<endl;
 #define pb push_back
 #define v_sort(a) sort(a.begin(), a.end());
 #define v_lb(a, x) lower_bound(a.begin(), a.end(), x)
