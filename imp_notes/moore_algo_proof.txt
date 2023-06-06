@@ -1,0 +1,1 @@
+https://www.quora.com/What-is-the-proof-of-correctness-of-Moores-voting-algorithm
