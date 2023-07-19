@@ -1,0 +1,4 @@
+## 1. Learn kosajaru algo for strongly connected components and condensation graph from cp algorithms
+## 2. in a directed graph if you want to find the nodes that can reach a particular node, better to reverse the edges and see what all it can reach.
+## 3. if say each node is a player and player A can beat player B if strength[A] > strength[B], then instead of drawing the whole graph, we can sort the players according to strengths and make a directed edge between adjacent ones
+## 4. if we want to know the nodes that can reach all reach all the nodes in a directed graph, what we can do is implement kosajaru algo, find condensation graph (say G). pick out the indegree-0 node from G and run a BFS. if it cannot reach all nodes, then there doesnot exist else that degree-0 node in G has all the answer vertices.
