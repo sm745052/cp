@@ -15,3 +15,12 @@ Also observe that,
 p(n−1,k−1)=p(n−k,1)+p(n−k,2)+⋯+p(n−k,k−1)
 From the above two equations, we conclude:
 p(n,k)=p(n−1,k−1)+p(n−k,k)
+
+base case - 
+```cpp
+if(n<0)return 0;
+if(n==0){
+  if(k==0)return 1;
+  return 0;
+}
+```
